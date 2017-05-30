@@ -15,6 +15,8 @@ public class BlockInstances {
     //SEEDS
         public static BlockCropGrass cropGrass;
 
+        public static BlockGlass elfMosiac;
+
 
 
 }

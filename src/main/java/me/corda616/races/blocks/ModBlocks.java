@@ -6,12 +6,15 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemBlock;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
+import java.util.concurrent.BlockingDeque;
+
 /**
  * Created by CorDa616 on 5/30/2017.
  */
 public class ModBlocks {
     public static void init(){
         BlockInstances.soulLite = register(new BlockOre("soulLite").setCreativeTab(CreativeTabs.BUILDING_BLOCKS));
+        BlockInstances.elfMosiac = register(new BlockGlass("elfMosiac").setCreativeTab(CreativeTabs.BUILDING_BLOCKS));
         BlockInstances.cropGrass = register(new BlockCropGrass(),null);
 
     }
