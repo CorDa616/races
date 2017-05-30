@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "races",
+  "name": "Races",
+  "description": "Adds races to minecraft",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["CorDa16"],
+  "credits": "My stupditity at times",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
