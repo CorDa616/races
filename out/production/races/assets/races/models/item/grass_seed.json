@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "races:items/grassseed"
+    "layer0": "races:items/grass_seed"
   }
 }
