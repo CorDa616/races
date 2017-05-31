@@ -1,5 +1,6 @@
 package me.corda616.races;
 
+import me.corda616.races.proxies.CommonProxy;
 import me.corda616.races.blocks.ModBlocks;
 import me.corda616.races.items.ModItems;
 import net.minecraftforge.fml.common.Mod;
@@ -13,7 +14,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
  */
 @Mod(modid =  Main.MODID, name = Main.MODNAME, version = Main.VERSION)
 public class Main {
-    @SidedProxy(serverSide = "me.corda616.races.CommonProxy", clientSide = "me.corda616.races.ClientProxy")
+    @SidedProxy(serverSide = "me.corda616.races.proxies.CommonProxy", clientSide = "me.corda616.races.proxies.ClientProxy")
     public static CommonProxy proxy;
     public static final String MODID = "races";
     public static final String MODNAME =   "Races";

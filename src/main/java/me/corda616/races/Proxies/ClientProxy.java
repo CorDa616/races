@@ -1,5 +1,6 @@
-package me.corda616.races;
+package me.corda616.races.proxies;
 
+import me.corda616.races.Main;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;

@@ -1,4 +1,4 @@
-package me.corda616.races;
+package me.corda616.races.proxies;
 
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;

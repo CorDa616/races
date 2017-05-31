@@ -1,8 +1,9 @@
-package me.corda616.races.items;
+package me.corda616.races.items.crops;
 
 import me.corda616.races.Main;
 import me.corda616.races.blocks.BlockInstances;
 import me.corda616.races.blocks.ModBlocks;
+import me.corda616.races.items.ItemModelProvider;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemSeeds;

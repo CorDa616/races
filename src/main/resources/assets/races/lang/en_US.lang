@@ -4,6 +4,10 @@ item.elfBow1.name=Elven Bow
 item.elfSoul.name=Elven Soul
 item.orcSoul.name=Orc Soul
 item.humanSoul.name=Human Soul
+item.grass.name=Grass
+item.rose.name=Rose
+item.grassSeed.name=Grass Seed
+item.roseSeed.name=Rose Seed
 
 #Blocks
 tile.soulLite.name=Soul Ore

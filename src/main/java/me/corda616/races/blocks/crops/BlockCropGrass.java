@@ -1,4 +1,4 @@
-package me.corda616.races.blocks;
+package me.corda616.races.blocks.crops;
 
 import me.corda616.races.items.ItemInstances;
 import me.corda616.races.items.ModItems;

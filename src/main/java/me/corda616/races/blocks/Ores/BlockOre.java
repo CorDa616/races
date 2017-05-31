@@ -1,5 +1,6 @@
-package me.corda616.races.blocks;
+package me.corda616.races.blocks.Ores;
 
+import me.corda616.races.blocks.BlockBase;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 
