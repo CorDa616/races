@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5cbc42c9-300a-4ea8-b7d5-c25152f72690" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/me/corda616/races/blocks/crops/BlockCropCosmo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/me/corda616/races/items/crops/ItemCosmoSeed.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/corda616/races/blocks/BlockInstances.java" afterPath="$PROJECT_DIR$/src/main/java/me/corda616/races/blocks/BlockInstances.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/corda616/races/blocks/ModBlocks.java" afterPath="$PROJECT_DIR$/src/main/java/me/corda616/races/blocks/ModBlocks.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/corda616/races/items/ItemInstances.java" afterPath="$PROJECT_DIR$/src/main/java/me/corda616/races/items/ItemInstances.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/corda616/races/items/ModItems.java" afterPath="$PROJECT_DIR$/src/main/java/me/corda616/races/items/ModItems.java" />
-    </list>
+    <list default="true" id="5cbc42c9-300a-4ea8-b7d5-c25152f72690" name="Default" comment="" />
     <ignored path="races.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
