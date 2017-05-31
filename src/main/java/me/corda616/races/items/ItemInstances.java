@@ -1,5 +1,6 @@
 package me.corda616.races.items;
 
+import me.corda616.races.items.crops.ItemCosmoSeed;
 import me.corda616.races.items.crops.ItemGrassSeed;
 import me.corda616.races.items.crops.ItemRoseSeed;
 
@@ -37,5 +38,7 @@ public class ItemInstances {
         public static ItemBase grass;
         public static ItemRoseSeed roseSeed;
         public static ItemBase rose;
+        public static ItemCosmoSeed cosmoSeed;
+        public static ItemBase cosmo;
 
 }

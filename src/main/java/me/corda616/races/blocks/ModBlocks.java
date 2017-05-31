@@ -1,6 +1,7 @@
 package me.corda616.races.blocks;
 
 import me.corda616.races.blocks.Ores.BlockOre;
+import me.corda616.races.blocks.crops.BlockCropCosmo;
 import me.corda616.races.blocks.crops.BlockCropGrass;
 import me.corda616.races.blocks.crops.BlockCropRose;
 import me.corda616.races.items.ItemModelProvider;
@@ -17,6 +18,7 @@ public class ModBlocks {
         BlockInstances.soulLite = register(new BlockOre("soulLite").setCreativeTab(CreativeTabs.BUILDING_BLOCKS));
         BlockInstances.cropGrass = register(new BlockCropGrass(),null);
         BlockInstances.cropRose = register(new BlockCropRose(),null);
+        BlockInstances.cropCosmo = register(new BlockCropCosmo(),null);
 
     }
 

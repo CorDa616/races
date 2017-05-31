@@ -1,5 +1,6 @@
 package me.corda616.races.items;
 
+import me.corda616.races.items.crops.ItemCosmoSeed;
 import me.corda616.races.items.crops.ItemGrassSeed;
 import me.corda616.races.items.crops.ItemRoseSeed;
 import net.minecraft.creativetab.CreativeTabs;
@@ -35,6 +36,8 @@ public class ModItems {
         ItemInstances.grass = register(new ItemBase("grass").setCreativeTab(CreativeTabs.FOOD));
         ItemInstances.roseSeed = register(new ItemRoseSeed());
         ItemInstances.rose = register(new ItemBase("rose").setCreativeTab(CreativeTabs.BREWING));
+        ItemInstances.cosmoSeed = register(new ItemCosmoSeed());
+        ItemInstances.cosmo = register(new ItemBase("cosmo").setCreativeTab(CreativeTabs.BREWING));
     }
 
     private static <T extends Item> T register(T item){
