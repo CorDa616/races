@@ -1,0 +1,51 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "cross"
+  },
+  "variants": {
+    "age": {
+      "0": {
+        "textures": {
+          "cross": "races:blocks/grass/0"
+        }
+      },
+      "1": {
+        "textures": {
+          "cross": "races:blocks/grass/1"
+        }
+      },
+      "2": {
+        "textures": {
+          "cross": "races:blocks/grass/2"
+        }
+      },
+      "3": {
+        "textures": {
+          "cross": "races:blocks/grass/3"
+        }
+      },
+      "4": {
+        "textures": {
+          "cross": "races:blocks/grass/4"
+        }
+      },
+      "5": {
+        "textures": {
+          "cross": "races:blocks/grass/5"
+        }
+      },
+      "6": {
+        "textures": {
+          "cross": "races:blocks/grass/6"
+        }
+      },
+      "7": {
+        "textures": {
+          "cross": "races:blocks/grass/7"
+        }
+      }
+    }
+  }
+
+}

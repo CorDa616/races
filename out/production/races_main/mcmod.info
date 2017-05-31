@@ -1,0 +1,16 @@
+[
+{
+  "modid": "races",
+  "name": "Races",
+  "description": "Adds races to minecraft",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["CorDa16"],
+  "credits": "My stupditity at times",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

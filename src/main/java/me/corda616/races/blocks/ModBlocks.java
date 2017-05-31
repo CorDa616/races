@@ -3,14 +3,12 @@ package me.corda616.races.blocks;
 import me.corda616.races.blocks.Ores.BlockOre;
 import me.corda616.races.blocks.crops.BlockCropCosmo;
 import me.corda616.races.blocks.crops.BlockCropGrass;
-import me.corda616.races.blocks.crops.BlockCropRose;
+import me.corda616.races.blocks.crops.BlockCropHyacinth;
 import me.corda616.races.items.ItemModelProvider;
 import net.minecraft.block.Block;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemBlock;
 import net.minecraftforge.fml.common.registry.GameRegistry;
-
-import java.util.concurrent.BlockingDeque;
 
 /**
  * Created by CorDa616 on 5/30/2017.
@@ -18,9 +16,8 @@ import java.util.concurrent.BlockingDeque;
 public class ModBlocks {
     public static void init(){
         BlockInstances.soulLite = register(new BlockOre("soulLite").setCreativeTab(CreativeTabs.BUILDING_BLOCKS));
-        BlockInstances.elfMosiac = register(new BlockGlass("elfMosiac").setCreativeTab(CreativeTabs.BUILDING_BLOCKS));
         BlockInstances.cropGrass = register(new BlockCropGrass(),null);
-        BlockInstances.cropRose = register(new BlockCropRose(),null);
+        BlockInstances.crophyacinth = register(new BlockCropHyacinth(),null);
         BlockInstances.cropCosmo = register(new BlockCropCosmo(),null);
 
     }
