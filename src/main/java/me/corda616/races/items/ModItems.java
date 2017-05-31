@@ -1,8 +1,10 @@
 package me.corda616.races.items;
 
+import me.corda616.races.items.crops.ItemCosmoSeed;
+import me.corda616.races.items.crops.ItemGrassSeed;
+import me.corda616.races.items.crops.ItemRoseSeed;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
-import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 /**
@@ -32,6 +34,10 @@ public class ModItems {
         ItemInstances.ingotCopper = register(new ItemBase("ingotcopper").setCreativeTab(CreativeTabs.MATERIALS));
         ItemInstances.grassSeed = register(new ItemGrassSeed());
         ItemInstances.grass = register(new ItemBase("grass").setCreativeTab(CreativeTabs.FOOD));
+        ItemInstances.roseSeed = register(new ItemRoseSeed());
+        ItemInstances.rose = register(new ItemBase("rose").setCreativeTab(CreativeTabs.BREWING));
+        ItemInstances.cosmoSeed = register(new ItemCosmoSeed());
+        ItemInstances.cosmo = register(new ItemBase("cosmo").setCreativeTab(CreativeTabs.BREWING));
     }
 
     private static <T extends Item> T register(T item){

@@ -1,5 +1,6 @@
-This mapping 'snapshot_20161220' was designed for MC 1.11! Use at your own peril.This mapping 'snapshot_20161220' was designed for MC 1.11! Use at your own peril.
+This mapping 'snapshot_20161220' was designed for MC 1.11! Use at your own peril.This mapping 'snapshot_20161220' was designed for MC 1.11! Use at your own peril.org.gradle.internal.event.ListenerNotificationException: Failed to notify standard output listener.org.gradle.internal.event.ListenerNotificationException: Failed to notify standard output listener.org.gradle.internal.event.ListenerNotificationException: Failed to notify standard output listener.org.gradle.internal.event.ListenerNotificationException: Failed to notify standard output listener.
 
+<<<<<<< HEAD
 #################################################
          ForgeGradle 2.2-SNAPSHOT-eb2e450        
   https://github.com/MinecraftForge/ForgeGradle  
@@ -14,3 +15,5 @@ This mapping 'snapshot_20161220' was designed for MC 1.11! Use at your own peril
 BUILD SUCCESSFUL
 
 Total time: 8.972 secs
+=======
+>>>>>>> aa224d01a1e2457225692bf38e02e04869cad79c

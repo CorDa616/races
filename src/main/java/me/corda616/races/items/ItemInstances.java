@@ -1,5 +1,9 @@
 package me.corda616.races.items;
 
+import me.corda616.races.items.crops.ItemCosmoSeed;
+import me.corda616.races.items.crops.ItemGrassSeed;
+import me.corda616.races.items.crops.ItemRoseSeed;
+
 /**
  * Created by CorDa616 on 5/29/2017.
  */
@@ -32,5 +36,9 @@ public class ItemInstances {
 
         public static ItemGrassSeed grassSeed;
         public static ItemBase grass;
+        public static ItemRoseSeed roseSeed;
+        public static ItemBase rose;
+        public static ItemCosmoSeed cosmoSeed;
+        public static ItemBase cosmo;
 
 }
